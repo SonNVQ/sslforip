@@ -3,7 +3,7 @@
 # Step 1: Issue SSL
 Issue SSL for IP using acme.sh with HiCA
 
-# Step 2: Config on server
+# Step 2: Config
 ## Config IP SSL for OLS Panel:
 cd /usr/local/lsws/admin/conf
 ln /root/.acme.sh/*.cer webadmin.crt
