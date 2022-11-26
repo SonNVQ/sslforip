@@ -1,8 +1,9 @@
 # sslforip
 
-# Step 1: Issue SSL for IP using acme.sh with HiCA
+# Step 1: Issue SSL
+Issue SSL for IP using acme.sh with HiCA
 
-# Step 2: 
+# Step 2: Config on server
 ## Config IP SSL for OLS Panel:
 cd /usr/local/lsws/admin/conf
 ln /root/.acme.sh/*.cer webadmin.crt
